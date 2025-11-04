@@ -115,9 +115,6 @@ L'integrazione con FHIR e FSE trasformerebbe questa demo in uno strumento potent
 
 I contributi sono benvenuti! Se hai idee per migliorare questa app, sentiti libero di aprire una issue o una pull request.
 
-## Licenza
-
-Questo progetto è rilasciato sotto licenza ISC.
 
 ---
 L'app è progettata da [Marco Pingitore](https://openssn.marcopingitore.it).
