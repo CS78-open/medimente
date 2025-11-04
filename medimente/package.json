@@ -1,0 +1,22 @@
+
+{
+  "name": "medimente",
+  "version": "1.0.0",
+  "description": "Un assistente AI che semplifica le istruzioni mediche, crea promemoria e racconta storie gentili.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "gemini",
+    "llm",
+    "medical"
+  ],
+  "author": "Marco Pingitore",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}

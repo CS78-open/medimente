@@ -1,0 +1,6 @@
+
+{
+  "name": "MediMente",
+  "description": "Un assistente AI che semplifica le istruzioni mediche, crea promemoria e racconta storie gentili.",
+  "requestFramePermissions": []
+}

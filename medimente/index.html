@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediMente</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Optionally configure Tailwind CSS to use @apply directives. For this simple app, default is fine. -->
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .prose table {
+          @apply w-full text-left border-collapse;
+        }
+        .prose th, .prose td {
+          @apply px-4 py-2 border border-gray-300;
+        }
+        .prose th {
+          @apply bg-blue-100 font-semibold text-blue-800;
+        }
+        .prose td {
+          @apply bg-white;
+        }
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.1",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/jsx-runtime": "https://aistudiocdn.com/react@^19.2.0/jsx-runtime",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-50 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.js"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
