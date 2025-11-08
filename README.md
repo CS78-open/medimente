@@ -1,6 +1,3 @@
-Certamente\! Ecco la traduzione in inglese, mantenendo la formattazione Markdown e gli elementi strutturali originali:
-
-````markdown
 # MediMente
 
 This is a web application designed to make medical instructions more **accessible** and **easy to follow**. Leveraging the capabilities of a Google Gemini Large Language Model (LLM), the app takes raw medical text input (typed manually or extracted from images/PDFs) and transforms it into an understandable format, accompanied by a gentle narrative story for easier memorization and a practical integration with Google Calendar.
